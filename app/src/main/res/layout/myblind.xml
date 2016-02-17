@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/decorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#e2d9d9">
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:paddingRight="20dp"
+        android:layout_toStartOf="@+id/decorItem"
+        android:layout_toLeftOf="@+id/decorItem"
+        android:layout_alignParentBottom="true" />
+    <TextView android:id="@+id/decorItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:textColor="#717171"
+        android:text="Потяните чтобы обновить"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
